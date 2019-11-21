@@ -36,3 +36,7 @@ console.log(`lines.txt has ${100}`);
 console.log(`This file has ${25} words`);
 console.log(`words.txt has ${1000}`);
 ```
+
+## CodeSandbox Example
+
+[![Edit count.macro](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/countmacro-jgo3c?fontsize=14&hidenavigation=1&theme=dark)

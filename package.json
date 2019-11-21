@@ -42,6 +42,13 @@
     "typescript": "^3.7.2",
     "yarpm": "^0.2.1"
   },
+  "keywords": [
+    "babel",
+    "macro",
+    "javascript",
+    "typescript",
+    "count"
+  ],
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"

@@ -13,6 +13,15 @@
   "files": [
     "lib"
   ],
+  "homepage": "https://github.com/coffee-cup/count.macro",
+  "bugs": {
+    "url": "https://github.com/coffee-cup/count.macro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coffee-cup/count.macro.git"
+  },
+  "author": "Jake Runzer <jakerunzer@gmail.com> (https://jakerunzer.com)",
   "dependencies": {},
   "peerDependencies": {
     "babel-plugin-macros": "^2.7.0"

@@ -1,6 +1,6 @@
 # count.macro
 
-![](https://github.com/coffee-cup/count.macro/workflows/CI/badge.svg) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
+![](https://github.com/coffee-cup/count.macro/workflows/CI/badge.svg) ![](https://img.shields.io/github/license/coffee-cup/count.macro?style=flat-square) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 
 Count lines or words in files at build time
 

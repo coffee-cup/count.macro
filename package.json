@@ -24,8 +24,7 @@
     "url": "https://github.com/coffee-cup/count.macro.git"
   },
   "author": "Jake Runzer <jakerunzer@gmail.com> (https://jakerunzer.com)",
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "babel-plugin-macros": "^2.7.0"
   },
   "devDependencies": {

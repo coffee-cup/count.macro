@@ -25,7 +25,7 @@ Line and word information is based on the **source** file, not the output file.
 For example, this file
 
 ```js
-import { lines, linesIn, words, wordsIn } from "../lib/index.macro";
+import { lines, linesIn, words, wordsIn } from "count.macro";
 
 console.log(`This file has ${lines} lines`);
 console.log(`lines.txt has ${linesIn("./lines.txt")}`);

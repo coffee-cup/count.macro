@@ -1,13 +1,17 @@
 # count.macro
 
-![](https://github.com/coffee-cup/count.macro/workflows/CI/badge.svg) ![](https://img.shields.io/github/license/coffee-cup/count.macro?style=flat-square) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
+![](https://github.com/coffee-cup/count.macro/workflows/CI/badge.svg)
+![](https://img.shields.io/github/license/coffee-cup/count.macro?style=flat-square)
+[![Babel
+Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 
 Count lines or words in files at build time
 
 ## Usage
 
-`count.macro` is a [Babel macro](https://github.com/kentcdodds/babel-plugin-macros). 
-This will work out of the box with CRA, Gatsby, and Next.
+`count.macro` is a [Babel
+macro](https://github.com/kentcdodds/babel-plugin-macros). This will work out of
+the box with CRA, Gatsby, and Next.
 
 Line and word information is based on the **source** file, not the output file.
 

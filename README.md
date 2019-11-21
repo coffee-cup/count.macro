@@ -22,7 +22,7 @@ This file
 import { lines, linesIn, words, wordsIn } from "../lib/index.macro";
 
 console.log(`This file has ${lines} lines`);
-console.log(`test.txt has ${linesIn("./lines.txt")}`);
+console.log(`lines.txt has ${linesIn("./lines.txt")}`);
 
 console.log(`This file has ${words} words`);
 console.log(`words.txt has ${wordsIn("./words.txt")}`);
@@ -32,7 +32,7 @@ will be transpiled to
 
 ```js
 console.log(`This file has ${7} lines`);
-console.log(`test.txt has ${100}`);
+console.log(`lines.txt has ${100}`);
 console.log(`This file has ${25} words`);
 console.log(`words.txt has ${1000}`);
 ```

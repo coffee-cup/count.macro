@@ -8,15 +8,21 @@ Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=f
 
 Count lines or words in files at build time
 
-## Usage
+## Installation
 
 `count.macro` is a [Babel
 macro](https://github.com/kentcdodds/babel-plugin-macros). This will work out of
 the box with CRA, Gatsby, and Next.
 
+```shell
+npm install --save-dev count.macro
+```
+
+## Usage
+
 Line and word information is based on the **source** file, not the output file.
 
-This file
+For example, this file
 
 ```js
 import { lines, linesIn, words, wordsIn } from "../lib/index.macro";
@@ -36,6 +42,13 @@ console.log(`lines.txt has ${100}`);
 console.log(`This file has ${25} words`);
 console.log(`words.txt has ${1000}`);
 ```
+
+### Named Exports
+
+- `lines` is a number that will be transpiled to number of lines in current file
+- `linesIn` is a function that takes a filename as an argument. The call will be replaced with the number of lines in the file (relative to the current file).
+- `words` is a number that will be transpiled to number of words in current file.
+- `wordsIn` is a function that takes a filename as an argument. The call will be replaced with the number of words in the file (relative to the current file).
 
 ## CodeSandbox Example
 

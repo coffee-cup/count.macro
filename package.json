@@ -1,13 +1,13 @@
 {
   "name": "count.macro",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.macro.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
     "build:watch": "yarpm build --watch",
     "test": "jest",
-    "compile-example": "yarn clear:babel-cache && babel --plugins=babel-plugin-macros --presets=@babel/preset-typescript -f example/index.ts example/index.ts",
+    "compile-example": "yarn clear:babel-cache && babel --plugins=babel-plugin-macros --presets=@babel/preset-typescript example/index.ts",
     "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*"
   },
   "files": [

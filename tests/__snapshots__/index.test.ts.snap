@@ -32,6 +32,18 @@ const thisManyLines = 10;
 
 `;
 
+exports[`macros linesIn: linesIn 1`] = `
+
+import { linesIn } from "../lib/index.macro"
+const x = linesIn("./test.txt");
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const x = 7;
+
+
+`;
+
 exports[`macros no usage: no usage 1`] = `
 
 import { lines } from "../lib/index.macro"

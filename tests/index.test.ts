@@ -25,5 +25,9 @@ import { lines } from "../lib/index.macro"
 
 const thisManyLines = lines;
 `,
+    linesIn: `
+import { linesIn } from "../lib/index.macro"
+const x = linesIn("./test.txt");
+`,
   },
 });

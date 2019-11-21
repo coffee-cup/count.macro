@@ -8,7 +8,9 @@
     "build:watch": "yarpm build --watch",
     "test": "jest",
     "compile-example": "yarn clear:babel-cache && babel --plugins=babel-plugin-macros --presets=@babel/preset-typescript example/index.ts",
-    "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*"
+    "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*",
+    "clean": "rimraf lib",
+    "prepublishOnly": "yarpm clean && yarpm build"
   },
   "files": [
     "lib"
@@ -35,6 +37,7 @@
     "babel-plugin-macros": "^2.7.0",
     "babel-plugin-tester": "^8.0.0",
     "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2",

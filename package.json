@@ -1,0 +1,39 @@
+{
+  "name": "count.macro",
+  "version": "1.0.0",
+  "main": "lib/index.macro.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "yarpm build --watch",
+    "test": "jest",
+    "compile-example": "yarn clear:babel-cache && babel --plugins=babel-plugin-macros --presets=@babel/preset-typescript -f example/index.ts example/index.ts",
+    "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "babel-plugin-macros": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/babel__core": "^7.1.3",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.11",
+    "babel-plugin-macros": "^2.7.0",
+    "babel-plugin-tester": "^8.0.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "yarpm": "^0.2.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}

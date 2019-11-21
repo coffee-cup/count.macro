@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`macros 2 lines: 2 lines 1`] = `
+
+import { lines } from "../lib/index.macro"
+const thisManyLines = lines;
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const thisManyLines = 2;
+
+
+`;
+
+exports[`macros 10 lines: 10 lines 1`] = `
+
+import { lines } from "../lib/index.macro"
+
+
+
+
+
+
+
+
+const thisManyLines = lines;
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const thisManyLines = 10;
+
+
+`;
+
+exports[`macros no usage: no usage 1`] = `
+
+import { lines } from "../lib/index.macro"
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+
+
+`;

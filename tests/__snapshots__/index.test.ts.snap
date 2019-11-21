@@ -1,33 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`macros 2 lines: 2 lines 1`] = `
+exports[`macros lines: lines 1`] = `
 
 import { lines } from "../lib/index.macro"
-const thisManyLines = lines;
+const x = lines;
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-const thisManyLines = 2;
-
-
-`;
-
-exports[`macros 10 lines: 10 lines 1`] = `
-
-import { lines } from "../lib/index.macro"
-
-
-
-
-
-
-
-
-const thisManyLines = lines;
-
-      ↓ ↓ ↓ ↓ ↓ ↓
-
-const thisManyLines = 10;
+const x = 2;
 
 
 `;
@@ -35,7 +15,7 @@ const thisManyLines = 10;
 exports[`macros linesIn: linesIn 1`] = `
 
 import { linesIn } from "../lib/index.macro"
-const x = linesIn("./test.txt");
+const x = linesIn("./lines.txt");
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
@@ -46,10 +26,34 @@ const x = 7;
 
 exports[`macros no usage: no usage 1`] = `
 
-import { lines } from "../lib/index.macro"
+import { lines, linesIn, words, wordsIn } from "../lib/index.macro"
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
+
+
+`;
+
+exports[`macros words: words 1`] = `
+
+import { words } from "../lib/index.macro"
+const x = words;
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const x = 10;
+
+
+`;
+
+exports[`macros wordsIn: wordsIn 1`] = `
+
+import { wordsIn } from "../lib/index.macro"
+const x = wordsIn("./words.txt");
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const x = 3;
 
 
 `;

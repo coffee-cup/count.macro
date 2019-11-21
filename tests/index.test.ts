@@ -8,26 +8,22 @@ pluginTester({
     filename: __filename,
   },
   tests: {
-    "no usage": `import { lines } from "../lib/index.macro"`,
-    "2 lines": `
+    "no usage": `import { lines, linesIn, words, wordsIn } from "../lib/index.macro"`,
+    lines: `
 import { lines } from "../lib/index.macro"
-const thisManyLines = lines;
-`,
-    "10 lines": `
-import { lines } from "../lib/index.macro"
-
-
-
-
-
-
-
-
-const thisManyLines = lines;
+const x = lines;
 `,
     linesIn: `
 import { linesIn } from "../lib/index.macro"
-const x = linesIn("./test.txt");
+const x = linesIn("./lines.txt");
+`,
+    words: `
+import { words } from "../lib/index.macro"
+const x = words;
+`,
+    wordsIn: `
+import { wordsIn } from "../lib/index.macro"
+const x = wordsIn("./words.txt");
 `,
   },
 });

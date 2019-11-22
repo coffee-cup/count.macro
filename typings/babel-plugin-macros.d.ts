@@ -8,7 +8,7 @@ declare module "babel-plugin-macros" {
   }
 
   export interface MacroParams {
-    references: { default: References } & References;
+    references: { default: Babel.NodePath[] } & References;
     state: any;
     babel: typeof Babel;
   }

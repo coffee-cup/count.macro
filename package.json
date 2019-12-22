@@ -1,6 +1,6 @@
 {
   "name": "count.macro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.macro.js",
   "license": "MIT",
   "scripts": {

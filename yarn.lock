@@ -440,7 +440,14 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@types/babel__core@7.1.3", "@types/babel__core@^7.1.0":
+"@types/babel-plugin-macros@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@types/babel-plugin-macros/-/babel-plugin-macros-2.8.0.tgz#e2d890cd6f53e344de45b87090e0c1a8ae2b834c"
+  integrity sha512-ulOJ7EyfIaLkR++M5goEeL0iGykFIDU34HJ8mm2rkEh4ZfZ+hcbZ1bbcZxy/xdNy8mdJd4nG9FpnxFKHqWI6vg==
+  dependencies:
+    "@types/babel__core" "*"
+
+"@types/babel__core@*", "@types/babel__core@7.1.3", "@types/babel__core@^7.1.0":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.3.tgz#e441ea7df63cd080dfcd02ab199e6d16a735fc30"
   integrity sha512-8fBo0UR2CcwWxeX7WIIgJ7lXjasFxoYgRnFHUj+hRvKkpiBJbxhdAPTCY6/ZKM0uxANFVzt4yObSLuTiTnazDA==

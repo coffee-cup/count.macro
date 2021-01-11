@@ -40,7 +40,7 @@
     "ts-jest": "^25.2.0",
     "tslint": "^5.20.1",
     "typescript": "^3.7.5",
-    "yarpm": "^0.2.1"
+    "yarpm": "^1.1.1"
   },
   "keywords": [
     "babel",

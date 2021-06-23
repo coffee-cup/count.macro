@@ -35,7 +35,7 @@
     "@types/jest": "^25.1.2",
     "@types/node": "^12.12.26",
     "babel-plugin-tester": "^8.0.1",
-    "jest": "^25.1.0",
+    "jest": "^25.5.4",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.2.0",
     "tslint": "^5.20.1",
